@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
+		<plugin>
+
+            <!-- the plugin name [A-Za-z_] -->
+            <pluginName>OaUser</pluginName>
+            <pluginNiceName>OaUser</pluginNiceName>
+
+            <!-- a short description -->
+			<pluginDescription><![CDATA[
+                Generic user registration and authentication extension for Pimcore
+            ]]></pluginDescription>
+
+            <!-- meta data -->
+            <pluginVersion>1.0</pluginVersion>
+            <pluginRevision>1</pluginRevision>
+            <pluginBuildTimestamp>0</pluginBuildTimestamp>
+
+            <!-- put in the URL for the plugin configuration eg. /plugin/OaUser/admin/index -->
+            <pluginIframeSrc></pluginIframeSrc>
+
+            <!-- className of the plugin which extends Pimcore_API_Plugin_Abstract-->
+			<pluginClassName>OaUser_Plugin</pluginClassName>
+
+            <!-- include paths relative to plugin-directory -->
+			<pluginIncludePaths>
+				<path>/OaUser/lib</path>
+                <path>/OaUser/models</path>
+			</pluginIncludePaths>
+
+			<!-- namespaces to register with autoloader-->
+			<pluginNamespaces>
+				<namespace>OaUser</namespace>
+			</pluginNamespaces>
+
+			<pluginJsPaths>
+                <path>/plugins/OaUser/static/pimcore/js/admin.js</path>
+			</pluginJsPaths>
+		</plugin>
+</zend-config>

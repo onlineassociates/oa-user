@@ -1,0 +1,16 @@
+{
+    "name": "onlineassociates/oa-user",
+    "type": "pimcore-plugin",
+    "license": "BSD-3-Clause",
+    "description": "Generic user registration and authentication extension for Pimcore",
+    "keywords": ["pimcore","oa-user","plugin", "user-registration"],
+    "authors": [
+        {
+            "name": "OA Team",
+            "homepage": "https://github.com/onlineassociates"
+        }
+    ],
+    "require": {
+        "pimcore/installer-plugin": ">=1"
+    }
+}
