@@ -1,4 +1,4 @@
 oa-user
 =======
 
-Generic user registration and authentication extention for Pimcore
+Generic user registration and authentication extension for Pimcore
